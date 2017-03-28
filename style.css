@@ -1,0 +1,380 @@
+@charset "utf-8";
+/* CSS Document */
+body{align-content:center;
+color:#676565;
+background-color:#FCFCFC;
+font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+margin-right:10%;
+margin-left:10%;}
+
+header{font-size: 16px;
+font-style: normal;
+height:40px;
+font-weight: 400;
+padding:5px 0px;}
+
+#logo{text-align: center;
+float: left;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 139px;
+background-color:#B0ADAD;
+color:#FBF8F8;
+}
+
+#headerLinks {
+
+	float: left;
+
+	width: calc( 100% - 139px );
+
+	text-align: right;
+
+	padding-top: 10px;
+
+	padding-bottom: 10px;
+
+}
+
+#headerLinks a{text-decoration:none;
+color:#000000;
+margin-right:50px;
+font-size: 18px;
+}
+
+#offer{padding-top: 57px;
+	padding-bottom: 57px;
+	background-color:#DFDEDE;
+	padding-left: 115px;
+	margin-top:10px;
+	clear: both;}
+	
+#content {
+
+	clear: both;
+	padding-top: 29px;
+
+}
+
+#content .sidebar {
+
+	float: left;
+
+	width: 20%;
+
+	padding-left: 3%;
+
+	padding-right: 3%;
+
+	background-color:#DFDEDE;
+
+	padding-top: 36px;
+
+	height: 900px;
+
+}
+
+#content .mainContent {
+
+	float: left;
+
+	width: 70%;
+
+	text-align: center;
+
+	padding-left: 4%;
+	
+	background-color:white;
+
+}
+
+p.clear{
+	clear:both;
+}
+
+#content .sidebar #search {
+
+	width: 100%;
+
+	border:1px solid #000000;
+
+	height: 40px;
+
+	text-align: center;
+
+	font-size: 14px;
+	
+	color: #676565;
+
+}
+
+#content .sidebar #menubar {
+
+	text-align: left;
+
+}
+
+.menu ul li {
+
+	list-style-type: none;
+
+	font-size: 14px;
+
+	padding-top: 12px;
+
+	padding-left:10px;
+	
+	margin-bottom:20px;
+	
+}
+
+.menu a{
+	
+	text-decoration:none;
+	
+	color: #676565;
+	
+	font-size:16px;
+	
+}
+
+.menu a:hover{
+	
+	color: #000000;
+
+}
+.mainContent .productRow .productInfo {
+
+	float: left;
+
+	margin-left: 5%;
+
+	margin-right: 5%;
+
+	width: 22%;
+
+}
+
+.productRow .productInfo div{
+	
+	background-color: #B0ADAD;
+	
+	height: 120px;
+	
+	text-align:center;
+	
+	padding-top:60px;
+	
+}
+
+.productRow .productInfo .buyButton {
+
+	width: 84%;
+
+	background-color: #B0ADAD;
+	
+	color: #FCFBFB;
+	
+	height: 35px;
+
+	border-style: none;
+
+	font-size: 14px;
+
+	text-transform: uppercase;
+
+	margin-bottom: 25px;
+
+}
+
+.productRow .productInfo .price,.productRow .productInfo .productContent {
+	
+	white-space: pre-wrap;
+	
+}
+
+#container footer{
+	
+	font-weight: 200;
+
+	padding: 22px;
+	
+	text-align: center;
+	
+	background-color: #B0ADAD;
+	
+	color:#F9F7F7;
+
+}
+
+
+footer div a {
+
+	color:#FBF4F4 ;
+
+	display: inline;
+
+	text-decoration: none;
+
+	text-align: center;
+
+}
+
+footer div a:hover {
+
+	color:#000000 ;
+	
+}
+
+/**********************************************************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+div#theme{
+	position:absolute;
+	top:50px;
+	left:10px;
+	background-color:#CCC;
+	color:black;
+	padding:10px;
+}
+
+div#theme:hover{
+	cursor:pointer;
+	background-color:#999;
+}
+
+div#theme:active{
+	background-color:#666;
+}
+
+#welcometheme{
+	background-color:#333;
+	color:white;
+	width:300px;
+	position:absolute;
+	top:150px;
+	left:-500px;
+	border:1px solid black;
+	transition:all 0.5s ease;
+}
+
+#welcometheme article{
+	padding:5px;
+	margin:0 auto;
+	text-align:center;
+}
+
+#welcometheme article:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+
+
+#customtheme{
+	border:1px solid black;
+	background-color:#999;
+	color:white;
+	width:400px;
+	padding:5px;
+	position:absolute;
+	top:300px;
+	left:-800px;
+	transition:all 0.5s ease;
+}
+
+#customtheme article{
+	font-size:25px;
+	color:black;
+	margin:5px;
+}
+
+#apply{
+	text-align:center;
+	background-color:#0CF;
+	color:white;
+	padding:5px;
+	width:100px;
+	margin:20px auto;
+	margin-left:130px;	
+}
+
+#apply:hover{
+	background-color:#09C;
+}
+
+#apply:active{
+	background-color:#3F0;
+}
+
+#customtheme span{
+	display:inline-block;
+	width:250px;
+	margin:5px;
+}
+
+#customtheme span:hover{
+	background-color:#999;	
+}
+
+#theme span{
+	display:inline-block;
+	font-size:40px;
+	text-align:center;
+	width:100px;
+}
+
+
+#inbuilttheme{
+	background-color:black;
+	color:white;
+	width:120px;
+	height:300px;
+	padding:10px;
+	text-align:center;
+	position:fixed;
+	top:60px;
+	right:0;
+	max-height:0;
+	opacity:0;
+	transition:all 0.5s ease;
+}
+
+#inbuilttheme span{
+	display:inline-block;
+	margin:10px auto;
+	width:100%;
+	padding:5px;
+	cursor:pointer
+}
+
+p.fa-close{
+	font-size:20px;
+	margin:0;
+	padding:5px;
+	position:relative;
+	float:right;
+	cursor:pointer;
+}
+
+p.fa-close:hover{
+	background-color:red;
+}
+
+	
+
+#inbuilttheme span:hover{
+	background-color:#999;
+}
+
+span{
+	color:;
